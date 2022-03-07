@@ -23,7 +23,7 @@ from model import *
 parser = argparse.ArgumentParser(description='PyTorch Combining Fundus Images and Fluorescein Angiography for Artery/Vein Classification Using the Hierarchical Vessel Graph Network')
 parser.add_argument('--batch', type=int, default=10, metavar='N',
                     help='input batch size for training (default: 10)')
-parser.add_argument('--data_input', type=str, default='')
+parser.add_argument('--input_path', type=str, default='')
 parser.add_argument('--test-batch-size', type=int, default=1, metavar='N',
                     help='input batch size for testing (default: 1)')
 parser.add_argument('--epochs', type=int, default=100000, metavar='N',
