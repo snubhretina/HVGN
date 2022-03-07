@@ -14,12 +14,16 @@ cd HVGN
 * Download the pretrained Vessel extraction models form [here]. This model is trained DRIVE Database. Our model can't provide cause trained our SNUBH internel DB.
 * Unzip and move the pretrained parameters to models/
 
-### Run
+### Training
 ```
-python main.py --input_path="./data" --output_path="./res/" --seg_model_path = "./model/seg_model.pth" --gnn_model_path = "./model/seg_model.pth"
+python main.py --input_path="./data" --output_path="./res/"
 ```
-you must input model
 
+
+### Test
+```
+python test.py --input_path="./data" --output_path="./res/" --seg_model_path = "./model/seg_model.pth" --gnn_model_path = "./model/gnn_model.pth"
+```
 
 ## Citation
 ```
