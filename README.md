@@ -1,4 +1,4 @@
-# HVGN
+# Combining Fundus Images and Fluorescein Angiography for Artery/Vein Classification Using the Hierarchical Vessel Graph Network
 
 ## Introduction
 This repository described in the paper "Combining Fundus Images and Fluorescein Angiography for Artery/Vein Classification Using the Hierarchical Vessel Graph Network" (https://link.springer.com/chapter/10.1007/978-3-030-59722-1_57)
